@@ -4,6 +4,7 @@ public enum Status {
     CREADO("Creado"),
     EN_PROCESO("En Proceso"),
     FINALIZADO("Finalizado"),
+    EVALUADO("EVALUADO"),
     CANCELADO("Cancelado");
 
     public static final String DEFAULT_STATUS = "Creado";

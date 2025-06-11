@@ -17,7 +17,7 @@ public class PromptCreator {
 
     @Value("${integration.gemini.prompt.grounding-summarization}")
     private String systemInstructionSummarization;
-    private static final String HISTORY_MANDATES_TOKEN = "<HISTORY_MANDATES_LIST>";
+    private static final String HISTORY_MANDATES_TOKEN = "//<HISTORY_MANDATES_LIST//>";
 
     public PromptDto createInferencePrioritizationPrompt(List<HistoryMandateDto> historyMandatesRequest, List<MandateDto> mandatesDto){
 
